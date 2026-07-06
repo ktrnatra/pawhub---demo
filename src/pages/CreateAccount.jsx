@@ -44,7 +44,11 @@ export default function CreateAccount() {
               <div className="size-[18px] flex flex-col text-[#0c0e0973]">
                 <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><circle cx="12" cy="7" r="4" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle></svg>
               </div>
-              <div className="text-[#0c0e0966] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">Maya Reinhardt</div>
+              <input
+  type="text"
+  placeholder="Maya Reinhardt"
+  className="w-full bg-transparent outline-none text-[#0c0e09] text-sm leading-normal placeholder:text-[#0c0e0966]"
+/>
             </div>
           </div>
           <div className="flex w-[341px] h-fit flex-col gap-[7px]">
@@ -53,7 +57,11 @@ export default function CreateAccount() {
               <div className="size-[18px] flex flex-col text-[#0c0e0973]">
                 <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><polyline points="22,6 12,13 2,6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
               </div>
-              <div className="text-[#0c0e0966] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">maya@example.com</div>
+              <input
+  type="email"
+  placeholder="maya@example.com"
+  className="w-full bg-transparent outline-none text-[#0c0e09] text-sm leading-normal placeholder:text-[#0c0e0966]"
+/>
             </div>
           </div>
           <div className="flex w-[341px] h-fit flex-col gap-[7px]">
@@ -62,7 +70,11 @@ export default function CreateAccount() {
               <div className="size-[18px] flex flex-col text-[#0c0e0973]">
                 <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
               </div>
-              <div className="text-[#0c0e0966] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">At least 8 characters</div>
+              <input
+  type="password"
+  placeholder="At least 8 characters"
+  className="w-full bg-transparent outline-none text-[#0c0e09] text-sm leading-normal placeholder:text-[#0c0e0966]"
+/>
             </div>
           </div>
           <div className="flex w-[341px] h-14 shrink-0 justify-center items-center mt-1 mb-0 bg-[#0c0e09] rounded-2xl mx-0">
