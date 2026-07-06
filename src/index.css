@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  font-family: 'Rubik', sans-serif !important;
-}
 
 html, body, #root {
   min-height: 100%;
@@ -14,8 +10,12 @@ html, body, #root {
 }
 
 body {
-  font-family: 'Rubik', sans-serif !important;
+  font-family: 'Rubik', sans-serif;
   background: #0c0e09;
+}
+
+.pawhub-bubbles {
+  font-family: 'Rubik Bubbles', cursive !important;
 }
 
 button {
