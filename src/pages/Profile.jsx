@@ -10,7 +10,7 @@ export default function Profile() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[852px] flex-col bg-[#f8f8f6] overflow-clip">
+      <div className="flex w-[393px] h-[852px] flex-col bg-[#f8f8f6] overflow-y-auto overflow-x-hidden">
         <div className="flex relative w-full h-[256px] flex-col shrink-0 rounded-br-[30px] rounded-bl-[30px] overflow-clip">
           <div className="size-full inset-0 flex absolute flex-col bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/5002f329a074000bc946ada1b0c40dc9a4a493e76b9be6bc286a6cfb5f2f62f7.jpg')] bg-cover bg-no-repeat"></div>
           <div className="flex absolute h-[150px] flex-col left-0 right-0 bottom-0 bg-[linear-gradient(0deg,_rgba(12,_14,_9,_0.55)_0%,_rgba(12,_14,_9,_0)_100%)]"></div>
@@ -28,7 +28,7 @@ export default function Profile() {
             </div>
           </div>
         </div>
-        <div className="flex w-[393px] min-h-0 flex-col z-[10] pt-0 pb-[92px] mt-[-56px] mb-0 flex-1 px-4 mx-0 gap-2.5">
+        <div className="flex w-[393px] min-h-0 flex-col z-[10] pt-0 pb-[92px] mt-[10px] mb-0 flex-1 px-4 mx-0 gap-2.5">
           <div className="flex w-full h-fit flex-col bg-[#ffffffd9] border-t border-b border-l border-r shadow-[0px_8px_24px_rgba(12,14,9,0.06)] rounded-[26px] p-4 gap-2.5 border-[#eaeaea99]">
             <div className="flex w-full justify-between items-center">
               <div className="flex items-center gap-2">
