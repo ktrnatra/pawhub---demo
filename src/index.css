@@ -3,6 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.pawhub-bubbles,
+.pawhub-bubbles * {
+  font-family: 'Rubik Bubbles', cursive !important;
+  font-weight: 400 !important;
+}
 
 html, body, #root {
   min-height: 100%;
