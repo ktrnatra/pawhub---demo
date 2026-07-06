@@ -15,7 +15,7 @@ export default function CreateAccount() {
           <div className="size-[104px] flex justify-center items-center"></div>
           <div className="flex relative w-[114px] h-[92px] flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/e0a0c2ad6d2cbb3d26cb42c2d41fb189fd2f16e99fc36071441bbd512d53a8ea.png')] bg-cover bg-no-repeat"></div>
           <div className="flex relative w-full h-fit justify-center items-center">
-            <div className="h-[88px] text-[#0c0e09] font-['Inter'] text-[40px] leading-[1.1] text-center [display:inline-block] [overflow-wrap:normal]">Welcome to PawHub</div>
+            <div className="pawhub-bubbles h-[88px] text-[#0c0e09] text-[40px] leading-[1.1] text-center [display:inline-block] [overflow-wrap:normal]">Welcome to PawHub</div>
           </div>
           <div className="flex w-full max-w-[300px] h-fit justify-center items-center">
             <div className="text-[#0c0e09b3] font-['Inter'] text-sm leading-normal text-center [display:inline-block] [overflow-wrap:normal]">Create your account and connect with fellow pet parents.</div>
