@@ -12,7 +12,7 @@ export default function PetProfile () {
       <style>{"* { box-sizing: border-box; }"}</style>
       <div className="flex w-[393px] h-[852px] flex-col bg-[#0c0e09] overflow-clip">
         <div className="size-full inset-0 flex absolute flex-col overflow-clip">
-          <div className="size-full inset-0 flex absolute flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/88085cb88b44c04228faa2fa5c052b8d735476b71c2f33c3d9aac2997e2dd7a9.jpg')] bg-cover bg-no-repeat"></div>
+          <div className="size-full inset-0 flex absolute flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/88085cb88b44c04228faa2fa5c052b8d735476b71c2f33c3d9aac2997e2dd7a9.jpg')] bg-cover bg-center bg-no-repeat"></div>
           <div className="flex absolute h-[380px] flex-col left-0 right-0 bottom-0 bg-[linear-gradient(0deg,_rgba(12,_14,_9,_0.6)_0%,_rgba(0,_0,_0,_0)_100%)]"></div>
         </div>
         <div className="flex absolute justify-between items-center z-[10] left-0 top-4 right-0 px-4 py-0">
