@@ -84,22 +84,22 @@ case 'MenuOverlay':
   return (
     <>
       {/* close X */}
-      <Hotspot to="Home" setPage={setPage} label="Close menu" className="left-[330px] top-[70px] w-[45px] h-[45px]" />
+      <Hotspot to="Home" setPage={setPage} label="Close menu" className="left-[238px] top-[52px] w-[48px] h-[48px] rounded-full" />
 
-      {/* profile area */}
-      <Hotspot to="Profile" setPage={setPage} label="Open profile" className="left-[25px] top-[145px] w-[250px] h-[110px] rounded-2xl" />
+      {/* profile area only */}
+      <Hotspot to="Profile" setPage={setPage} label="Open profile" className="left-[20px] top-[112px] w-[250px] h-[68px] rounded-2xl" />
 
       {/* menu items */}
-      <Hotspot to="Home" setPage={setPage} label="Home" className="left-[20px] top-[285px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="MyPets" setPage={setPage} label="My Pets" className="left-[20px] top-[350px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="PetProfile" setPage={setPage} label="Vaccination Cards" className="left-[20px] top-[415px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="Home" setPage={setPage} label="Reminders" className="left-[20px] top-[480px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="Community" setPage={setPage} label="Saved Posts" className="left-[20px] top-[545px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="MenuOverlay" setPage={setPage} label="Settings" className="left-[20px] top-[610px] w-[300px] h-[58px] rounded-2xl" />
-      <Hotspot to="MenuOverlay" setPage={setPage} label="Help and Support" className="left-[20px] top-[675px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="Home" setPage={setPage} label="Home" className="left-[20px] top-[198px] w-[250px] h-[50px]" />
+      <Hotspot to="MyPets" setPage={setPage} label="My Pets" className="left-[20px] top-[248px] w-[250px] h-[50px]" />
+      <Hotspot to="PetProfile" setPage={setPage} label="Vaccination Cards" className="left-[20px] top-[298px] w-[250px] h-[50px]" />
+      <Hotspot to="Home" setPage={setPage} label="Reminders" className="left-[20px] top-[348px] w-[250px] h-[50px]" />
+      <Hotspot to="Community" setPage={setPage} label="Saved Posts" className="left-[20px] top-[398px] w-[250px] h-[50px]" />
+      <Hotspot to="MenuOverlay" setPage={setPage} label="Settings" className="left-[20px] top-[448px] w-[250px] h-[50px]" />
+      <Hotspot to="MenuOverlay" setPage={setPage} label="Help and Support" className="left-[20px] top-[498px] w-[250px] h-[50px]" />
 
       {/* log out */}
-      <Hotspot to="Welcome" setPage={setPage} label="Log out" className="left-[20px] top-[760px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="Welcome" setPage={setPage} label="Log out" className="left-[20px] top-[778px] w-[250px] h-[52px]" />
     </>
   );
     case 'MyPets':
