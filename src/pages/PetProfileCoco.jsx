@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f38e3-3279-71ea-8c55-163187b28794
  * Jul 7, 2026
  */
-export default function PetProfileCoco() {
+export default function PetProfileCoCo () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,8 +12,7 @@ export default function PetProfileCoco() {
       <style>{"* { box-sizing: border-box; }"}</style>
       <div className="flex w-[393px] h-[852px] flex-col bg-[#0c0e09] overflow-clip">
         <div className="size-full inset-0 flex absolute flex-col overflow-clip">
-          <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/5a13a7bac37be65628f3bdf283c6f282986543abce08f7bce250a149c2c1adba.jpg')] bg-cover bg-no-repeat"></div>
-          <div className="flex absolute h-[380px] flex-col left-0 right-0 bottom-0 bg-[linear-gradient(0deg,_rgba(12,_14,_9,_0.6)_0%,_rgba(0,_0,_0,_0)_100%)]"></div>
+          <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/cb510d7bd19f60cb8dbfe4894a543152b6451e916639473733c79c2be6a32757.png')] bg-cover bg-no-repeat"></div>
         </div>
         <div className="flex absolute justify-between items-center z-[10] left-0 top-4 right-0 px-4 py-0">
           <div className="size-[42px] flex justify-center items-center bg-[#0c0e098c] border-t border-b border-l border-r backdrop-blur-md rounded-full border-[#ffffff1a]">
