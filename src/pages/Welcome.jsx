@@ -13,7 +13,7 @@ export default function Welcome() {
       <div className="flex w-[393px] h-[852px] flex-col justify-between items-center pt-24 pb-12 bg-[#fbff12] px-8 overflow-clip">
         <div className="flex relative w-[320px] h-[359px] flex-col shrink-0 justify-center items-center gap-x-[34px] gap-y-px">
           <div className="relative w-[217px] h-[177px] shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/9832b141a065c3dfafea3c9738990b0f1d62105960696f7e9652a5e8768c7446.png')] bg-cover bg-no-repeat overflow-clip"></div>
-          <span className="relative w-[373px] h-24 shrink-0 text-black font-['Rubik_Bubbles'] text-[70px] text-center break-words [display:inline-block] [overflow-wrap:break-word]">PAWHUB</span>
+          <span className="pawhub-bubbles relative w-[373px] h-24 shrink-0 text-black text-[70px] text-center break-words [display:inline-block] [overflow-wrap:break-word]">PAWHUB</span>
         </div>
         <div className="flex w-full flex-col items-center mt-10 mb-0 mx-0 gap-9">
           <div className="flex w-[250px] h-[68px] shrink-0 justify-center items-center bg-[#0c0e09] rounded-[34px]">
