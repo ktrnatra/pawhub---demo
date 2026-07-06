@@ -26,14 +26,17 @@ const routes = [
   { id: 'Profile', label: "user profile page", Component: Profile },
 ];
 
-function Hotspot({ className = '', to, setPage, label }) {
+function Hotspot({ to, setPage, label, className = '', feedback = false }) {
   return (
     <button
       type="button"
-      aria-label={label || to}
-      title={label || to}
-      onClick={(e) => { e.stopPropagation(); setPage(to); } }
-      className={`absolute z-50 bg-transparent border-0 cursor-pointer ${className}`}
+      aria-label={label}
+      onClick={() => setPage(to)}
+      className={`absolute z-50 ${className} ${
+        feedback
+          ? 'bg-transparent active:bg-[#0c0e09]/10 active:border active:border-[#0c0e09]/20 transition-colors duration-150'
+          : 'bg-transparent'
+      }`}
     />
   );
 }
@@ -54,7 +57,7 @@ function DemoHotspots({ page, setPage }) {
     case 'CreateAccount':
       return (
         <>
-          <Hotspot to="CreateAccount" setPage={setPage} label="Sign up with Google" className="left-[26px] top-[354px] w-[341px] h-[54px] rounded-2xl" />
+          <Hotspot feedback to="CreateAccount" setPage={setPage} label="Sign up with Google" className="left-[26px] top-[354px] w-[341px] h-[54px] rounded-2xl" />
           <Hotspot to="Home" setPage={setPage} label="Create Account" className="left-[26px] top-[742px] w-[341px] h-[56px] rounded-2xl" />
           <Hotspot to="Login" setPage={setPage} label="Log in" className="left-[205px] top-[812px] w-[70px] h-[30px]" />
         </>
@@ -62,7 +65,7 @@ function DemoHotspots({ page, setPage }) {
     case 'Login':
       return (
         <>
-          <Hotspot to="Login" setPage={setPage} label="Log in with Google" className="left-[26px] top-[310px] w-[341px] h-[54px] rounded-2xl" />
+          <Hotspot feedback to="Login" setPage={setPage} label="Log in with Google" className="left-[26px] top-[310px] w-[341px] h-[54px] rounded-2xl" />
           <Hotspot to="Home" setPage={setPage} label="Log in" className="left-[26px] top-[647px] w-[341px] h-[56px] rounded-2xl" />
           <Hotspot to="CreateAccount" setPage={setPage} label="Sign up" className="left-[215px] top-[724px] w-[70px] h-[30px]" />
         </>
