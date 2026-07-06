@@ -1,9 +1,9 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f2882-13d1-7463-9ebe-5812fbe032fe
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function PetProfile() {
+export default function PetProfile () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
