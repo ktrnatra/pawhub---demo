@@ -54,6 +54,7 @@ function DemoHotspots({ page, setPage }) {
     case 'CreateAccount':
       return (
         <>
+          <Hotspot to="CreateAccount" setPage={setPage} label="Sign up with Google" className="left-[26px] top-[354px] w-[341px] h-[54px] rounded-2xl" />
           <Hotspot to="Home" setPage={setPage} label="Create Account" className="left-[26px] top-[742px] w-[341px] h-[56px] rounded-2xl" />
           <Hotspot to="Login" setPage={setPage} label="Log in" className="left-[205px] top-[812px] w-[70px] h-[30px]" />
         </>
@@ -61,6 +62,7 @@ function DemoHotspots({ page, setPage }) {
     case 'Login':
       return (
         <>
+          <Hotspot to="Login" setPage={setPage} label="Log in with Google" className="left-[26px] top-[310px] w-[341px] h-[54px] rounded-2xl" />
           <Hotspot to="Home" setPage={setPage} label="Log in" className="left-[26px] top-[647px] w-[341px] h-[56px] rounded-2xl" />
           <Hotspot to="CreateAccount" setPage={setPage} label="Sign up" className="left-[215px] top-[724px] w-[70px] h-[30px]" />
         </>
