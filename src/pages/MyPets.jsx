@@ -10,7 +10,7 @@ export default function MyPets() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[852px] flex-col bg-white overflow-clip">
+      <div className="flex w-[393px] h-[852px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f8f8f6] px-0 overflow-clip">
         <div className="flex h-fit flex-col shrink-0 pt-4 pb-1.5 px-4 gap-3.5">
           <div className="flex w-[361px] h-14 shrink-0 justify-between items-center bg-[#0c0e09] rounded-[20px] px-3.5 py-0">
             <div className="size-10 flex shrink-0 justify-center items-center bg-[#ffffff14] rounded-full">
@@ -107,7 +107,7 @@ export default function MyPets() {
             <div className="text-[#fbff12] font-['Inter'] text-[15px] font-bold leading-normal [display:inline-block] [overflow-wrap:normal]">Add New Pet</div>
           </div>
         </div>
-        <div className="flex relative w-[393px] h-fit justify-around items-center bg-[#0c0e09] rounded-[40px] p-3">
+        <div className="flex relative w-[361px] h-[73px] shrink-0 justify-around items-center bg-[#0c0e09] rounded-[40px] p-3">
           <div className="flex h-[53px] flex-col items-center gap-1">
             <div className="flex w-[46px] h-8 justify-center items-center">
               <div className="size-5 flex flex-col text-[#ffffff80]">
