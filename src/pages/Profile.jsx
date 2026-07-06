@@ -1,16 +1,16 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f2aaf-fd7a-7297-89a8-e7eed7fa02f4
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function Profile() {
+export default function Profile () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[852px] flex-col bg-[#f8f8f6] overflow-clip">
+      <div className="flex w-[393px] h-[852px] flex-col items-start pt-0 pb-[5px] bg-[#f8f8f6] px-0 overflow-clip">
         <div className="flex relative w-full h-[256px] flex-col shrink-0 rounded-br-[30px] rounded-bl-[30px] overflow-clip">
           <div className="size-full inset-0 flex absolute flex-col bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/5002f329a074000bc946ada1b0c40dc9a4a493e76b9be6bc286a6cfb5f2f62f7.jpg')] bg-cover bg-no-repeat"></div>
           <div className="flex absolute h-[150px] flex-col left-0 right-0 bottom-0 bg-[linear-gradient(0deg,_rgba(12,_14,_9,_0.55)_0%,_rgba(12,_14,_9,_0)_100%)]"></div>
@@ -118,47 +118,39 @@ export default function Profile() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex absolute w-[361px] h-[73px] justify-around items-center left-4 bottom-1.5 bg-[#0c0e09] shadow-[0px_-4px_24px_rgba(12,14,9,0.18)] rounded-[40px] p-2.5">
-          <div className="flex h-[53px] flex-col items-center gap-1">
-            <div className="flex w-[46px] h-8 justify-center items-center">
-              <div className="size-5 flex flex-col text-[#ffffff80]">
-                <div className="size-5 flex flex-col">
-                  <svg fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgba(255, 255, 255, 0.5)"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path></svg>
+          <div className="flex absolute w-[361px] h-[73px] shrink-0 justify-around items-center left-4 top-[575px] bg-[#0c0e09] rounded-[40px] p-2.5">
+            <div className="flex h-[53px] flex-col items-center gap-1">
+              <div className="flex w-[46px] h-8 justify-center items-center">
+                <div className="size-5 flex flex-col text-[#ffffff80]">
+                  <svg stroke="#FFFFFF" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
                 </div>
               </div>
+              <div className="text-white font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Home</div>
             </div>
-            <div className="text-[#ffffffcc] font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Home</div>
-          </div>
-          <div className="flex h-[53px] flex-col items-center gap-1">
-            <div className="flex w-[46px] h-8 justify-center items-center">
-              <div className="size-5 flex flex-col text-[#ffffff80]">
-                <div className="size-5 flex flex-col">
-                  <svg fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgba(255, 255, 255, 0.5)"><circle cx="11" cy="4" r="2" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" color="rgba(255, 255, 255, 0.5)" fill="none" strokeLinecap="round" strokeLinejoin="round"></circle><circle cx="18" cy="8" r="2" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" color="rgba(255, 255, 255, 0.5)" fill="none" strokeLinecap="round" strokeLinejoin="round"></circle><circle cx="20" cy="16" r="2" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" color="rgba(255, 255, 255, 0.5)" fill="none" strokeLinecap="round" strokeLinejoin="round"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path></svg>
+            <div className="flex h-[53px] flex-col items-center gap-1">
+              <div className="flex w-[46px] h-8 justify-center items-center rounded-full">
+                <div className="size-5 flex flex-col text-[#0c0e09]">
+                  <svg stroke="#FFFFFF" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><circle cx="11" cy="4" r="2" color="rgb(12, 14, 9)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(12, 14, 9)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(12, 14, 9)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(12, 14, 9)" fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
                 </div>
               </div>
+              <div className="text-white font-['Inter'] text-[11px] font-bold leading-normal [display:inline-block] [overflow-wrap:normal]">My Pets</div>
             </div>
-            <div className="text-[#ffffffcc] font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">My Pets</div>
-          </div>
-          <div className="flex h-[53px] flex-col items-center gap-1">
-            <div className="flex w-[46px] h-8 justify-center items-center">
-              <div className="size-5 flex flex-col text-[#ffffff80]">
-                <div className="size-5 flex flex-col">
-                  <svg fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgba(255, 255, 255, 0.5)"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path><circle cx="9" cy="7" r="4" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" color="rgba(255, 255, 255, 0.5)" fill="none" strokeLinecap="round" strokeLinejoin="round"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path><path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgba(255, 255, 255, 0.5)" fill="none"></path></svg>
+            <div className="flex h-[53px] flex-col items-center gap-1">
+              <div className="flex w-[46px] h-8 justify-center items-center rounded-[40px]">
+                <div className="size-5 flex flex-col text-[#ffffff80]">
+                  <svg stroke="rgba(255, 255, 255, 0.96)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="rgba(255, 255, 255, 0.96)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><circle cx="9" cy="7" r="4" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="rgba(255, 255, 255, 0.96)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="rgba(255, 255, 255, 0.96)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M16 3.13a4 4 0 0 1 0 7.75" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="rgba(255, 255, 255, 0.96)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
                 </div>
               </div>
+              <div className="text-white font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Community</div>
             </div>
-            <div className="text-[#ffffffcc] font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Community</div>
-          </div>
-          <div className="flex h-[53px] flex-col items-center gap-1">
-            <div className="flex w-[46px] h-8 justify-center items-center bg-[#fbff12] rounded-[40px]">
-              <div className="size-5 flex flex-col text-[#0c0e09]">
-                <div className="size-5 flex flex-col">
-                  <svg fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" stroke="rgb(12,14,9)" strokeWidth="2px" strokeLinecap="round" strokeLinejoin="round" color="rgb(12, 14, 9)" fill="none"></path><circle cx="12" cy="7" r="4" stroke="rgb(12,14,9)" strokeWidth="2px" color="rgb(12, 14, 9)" fill="none" strokeLinecap="round" strokeLinejoin="round"></circle></svg>
+            <div className="flex h-[53px] flex-col items-center gap-1">
+              <div className="flex w-[46px] h-8 justify-center items-center bg-[#fbff12] rounded-[40px]">
+                <div className="size-5 flex flex-col text-[#ffffff80]">
+                  <svg stroke="#0C0E09" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="#0C0E09" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><circle cx="12" cy="7" r="4" color="oklab(0.999994 0.0000455678 0.0000200868 / 0.5)" fill="none" stroke="#0C0E09" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle></svg>
                 </div>
               </div>
+              <div className="text-[#fbff12] font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Profile</div>
             </div>
-            <div className="text-[#fbff12] font-['Inter'] text-[11px] font-bold leading-normal [display:inline-block] [overflow-wrap:normal]">Profile</div>
           </div>
         </div>
       </div>
