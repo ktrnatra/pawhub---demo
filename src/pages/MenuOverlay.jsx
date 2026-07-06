@@ -248,7 +248,7 @@ export default function MenuOverlay () {
               <div className="size-[34px] flex shrink-0 justify-center items-center bg-[#fbff12] rounded-[40px]">
                 <div className="size-6 flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/e0a0c2ad6d2cbb3d26cb42c2d41fb189fd2f16e99fc36071441bbd512d53a8ea.png')] bg-cover bg-no-repeat"></div>
               </div>
-              <div className="text-[#fbff12] font-['Inter'] text-2xl leading-none [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
+              <div className="pawhub-bubbles text-[#fbff12] text-2xl leading-none [display:inline-block] [overflow-wrap:normal]" style={{ fontFamily: "'Rubik Bubbles', cursive", fontWeight: 400 }}>Pawhub</div>
             </div>
             <div className="size-9 flex shrink-0 justify-center items-center bg-[#ffffff14] rounded-full">
               <div className="size-[18px] flex flex-col text-white">
