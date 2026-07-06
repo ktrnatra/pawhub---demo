@@ -10,9 +10,9 @@ export default function Community() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[852px] flex-col bg-[#f5f5f5] overflow-clip">
+      <div className="flex w-[393px] h-[852px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f5f5f5] px-0 overflow-clip">
         <div className="flex w-[393px] h-[222px] flex-col shrink-0 pt-4 pb-1 px-4 gap-4">
-          <div className="flex w-[369px] h-14 shrink-0 justify-between items-center bg-[#0c0e09] rounded-[20px] px-4 py-0">
+          <div className="flex w-[361px] h-14 shrink-0 justify-between items-center bg-[#0c0e09] rounded-[20px] px-3.5 py-0 overflow-clip">
             <div className="size-9 flex shrink-0 justify-center items-center rounded-full">
               <div className="size-[22px] flex flex-col text-[#fbff12]">
                 <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><line x1="19" y1="12" x2="5" y2="12" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><polyline points="12 19 5 12 12 5" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
@@ -169,12 +169,7 @@ export default function Community() {
             </div>
           </div>
         </div>
-        <div className="size-14 flex absolute justify-center items-center right-5 bottom-[100px] bg-[#0c0e09] shadow-[0px_8px_20px_rgba(12,14,9,0.28)] rounded-full">
-          <div className="size-6 flex flex-col text-[#fbff12]">
-            <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><path d="M12 20h9" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
-          </div>
-        </div>
-        <div className="flex relative w-[393px] h-fit justify-around items-center left-0 top-0 bg-[#0c0e09] rounded-[40px] p-3">
+        <div className="flex relative w-[361px] h-[73px] shrink-0 justify-around items-center bg-[#0c0e09] rounded-[40px] p-2.5">
           <div className="flex h-[53px] flex-col items-center gap-1">
             <div className="flex w-[46px] h-8 justify-center items-center">
               <div className="size-5 flex flex-col text-[#ffffff80]">
@@ -206,6 +201,11 @@ export default function Community() {
               </div>
             </div>
             <div className="text-white font-['Inter'] text-[11px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Profile</div>
+          </div>
+        </div>
+        <div className="size-14 flex absolute justify-center items-center right-5 bottom-[100px] bg-[#0c0e09] shadow-[0px_8px_20px_rgba(12,14,9,0.28)] rounded-full">
+          <div className="size-6 flex flex-col text-[#fbff12]">
+            <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><path d="M12 20h9" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
           </div>
         </div>
       </div>
