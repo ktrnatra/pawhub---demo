@@ -145,27 +145,10 @@ export default function App() {
   const Current = route.Component;
 
   return (
-    <main className="min-h-screen w-screen bg-neutral-950 text-black flex flex-col items-center justify-center p-4 overflow-auto">
-      <div className="mb-3 flex gap-2 flex-wrap justify-center max-w-[393px]">
-        {routes.map((r) => (
-          <button
-            key={r.id}
-            onClick={() => setPage(r.id)}
-            className={`px-2.5 py-1 rounded-full text-xs font-semibold ${page === r.id ? 'bg-[#FBFF12] text-[#0C0E09]' : 'bg-white/10 text-white/70'}`}
-          >
-            {r.label}
-          </button>
-        ))}
-      </div>
-
-      <div className="relative w-[393px] h-[852px] max-w-full overflow-hidden rounded-[32px] shadow-2xl bg-white">
-        <Current />
-        <DemoHotspots page={page} setPage={setPage} />
-      </div>
-
-      <p className="mt-3 text-xs text-white/60 text-center max-w-[393px]">
-        Pawhub clickable demo • Tap buttons/nav areas to move through the flow.
-      </p>
-    </main>
-  );
-}
+  <main className="min-h-screen w-screen bg-neutral-950 text-black flex items-center justify-center p-0 md:p-4 overflow-auto">
+    <div className="relative w-[393px] h-[852px] max-w-full overflow-hidden rounded-[32px] shadow-2xl bg-white">
+      <Current />
+      <DemoHotspots page={page} setPage={setPage} />
+    </div>
+  </main>
+);
