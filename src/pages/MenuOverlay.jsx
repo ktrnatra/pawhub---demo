@@ -1,9 +1,9 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f3611-961f-766d-b0fd-1e33b71b41e0
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function MenuOverlay() {
+export default function MenuOverlay () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -242,9 +242,14 @@ export default function MenuOverlay() {
           </div>
         </div>
         <div className="flex absolute w-[393px] h-[852px] flex-col left-0 top-0 bg-[#0c0e09cc] backdrop-blur-[3px]"></div>
-        <div className="flex absolute w-[288px] h-[852px] flex-col left-0 top-0 pt-14 pb-8 bg-[#0c0e09] rounded-tr-[28px] rounded-br-[28px] shadow-[12px_0px_40px_rgba(0,0,0,0.45)] px-6 gap-6">
+        <div className="flex absolute w-[288px] h-[852px] flex-col left-0 top-0 pt-14 pb-8 bg-[#0c0e09b3] border-t border-b border-l border-r rounded-tr-[28px] rounded-br-[28px] shadow-[0px_4px_10px_rgba(0,0,0,0.25)] drop-shadow-[rgba(0,_0,_0,_0.18)_12px_0px_40px] px-6 gap-6 border-[#fbff1224]">
           <div className="flex w-full h-fit shrink-0 justify-between items-center">
-            <div className="text-[#fbff12] font-['Inter'] text-2xl leading-none [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
+            <div className="flex h-fit items-center gap-[9px]">
+              <div className="size-[34px] flex shrink-0 justify-center items-center bg-[#fbff12] rounded-[40px]">
+                <div className="size-6 flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/e0a0c2ad6d2cbb3d26cb42c2d41fb189fd2f16e99fc36071441bbd512d53a8ea.png')] bg-cover bg-no-repeat"></div>
+              </div>
+              <div className="text-[#fbff12] font-['Inter'] text-2xl leading-none [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
+            </div>
             <div className="size-9 flex shrink-0 justify-center items-center bg-[#ffffff14] rounded-full">
               <div className="size-[18px] flex flex-col text-white">
                 <svg stroke="rgb(255, 255, 255)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(255, 255, 255)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(255, 255, 255)" fill="none" stroke="rgb(255, 255, 255)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(255, 255, 255)" fill="none" stroke="rgb(255, 255, 255)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
