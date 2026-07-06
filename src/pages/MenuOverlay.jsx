@@ -20,7 +20,7 @@ export default function MenuOverlay () {
                 </div>
               </div>
             </div>
-            <div className="text-[#fbff12] pawhub-bubbles text-xl font-bold leading-none tracking-[-0.3px] [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
+            <div className="text-[#fbff12] pawhub-bubbles text-xl leading-none" style={{ fontFamily: "'Rubik Bubbles', cursive", fontWeight: 400 }}>Pawhub</div>
             <div className="size-8 flex relative shrink-0 justify-center items-center">
               <div className="size-[22px] flex flex-col text-[#fbff12]">
                 <div className="size-[22px] flex flex-col">
