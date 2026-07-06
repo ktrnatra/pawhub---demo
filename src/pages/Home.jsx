@@ -1,16 +1,16 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f35ec-dcda-749d-844d-55035840b242
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function Home() {
+export default function Home () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Alegreya:wght@700&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[856px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f8f8f6] px-0 overflow-clip">
+      <div className="flex w-[393px] h-[852px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f8f8f6] px-0 overflow-clip">
         <div className="flex h-[750px] flex-col shrink-0 gap-x-3 gap-y-5 p-5 overflow-clip">
           <div className="flex w-full h-[52px] shrink-0 justify-between items-center bg-[#0c0e09] shadow-[0px_6px_18px_rgba(12,14,9,0.18)] rounded-[20px] px-5 py-0">
             <div className="size-8 flex shrink-0 justify-center items-center">
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="flex w-full h-fit gap-3">
               <div className="flex h-fit flex-col bg-white border-t border-b border-l border-r shadow-[0px_4px_16px_rgba(12,14,9,0.08)] flex-1 rounded-[20px] p-2 gap-2 border-[#0c0e0910]">
                 <div className="flex relative w-full h-[100px] flex-col rounded-[14px] overflow-clip">
-                  <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/a412b6073d7599e27d512cbb75210f84252afd0b8ad429d4cb9a826cdf30164b.jpg')] bg-cover bg-no-repeat"></div>
+                  <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/88085cb88b44c04228faa2fa5c052b8d735476b71c2f33c3d9aac2997e2dd7a9.jpg')] bg-cover bg-no-repeat"></div>
                   <div className="size-7 flex absolute justify-center items-center left-2 top-2 bg-[#fbff12] shadow-[0px_2px_6px_rgba(12,14,9,0.2)] rounded-full">
                     <div className="size-4 flex flex-col text-[#0c0e09]">
                       <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M8 14v.5" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M16 14v.5" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M11.25 16.25h1.5L12 17l-.75-.75Z" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
@@ -164,7 +164,7 @@ export default function Home() {
               </div>
               <div className="flex h-fit flex-col bg-white border-t border-b border-l border-r shadow-[0px_4px_16px_rgba(12,14,9,0.08)] flex-1 rounded-[20px] p-2 gap-2 border-[#0c0e0910]">
                 <div className="flex relative w-full h-[100px] flex-col rounded-[14px] overflow-clip">
-                  <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/8b6cae6524f66e54e23d57669a55d6c05443e3f07f6d479033bdd95430656a9b.jpg')] bg-cover bg-no-repeat"></div>
+                  <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/8020628585b552d516552f44ade57c9670982ddd645c489c576d6cb68d98a460.jpg')] bg-cover bg-no-repeat"></div>
                   <div className="size-7 flex absolute justify-center items-center left-2 top-2 bg-[#0c0e09] shadow-[0px_2px_6px_rgba(12,14,9,0.2)] rounded-full">
                     <div className="size-4 flex flex-col text-[#fbff12]">
                       <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><path d="M11.25 16.25h1.5L12 17z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M16 14v.5" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M8 14v.5" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
