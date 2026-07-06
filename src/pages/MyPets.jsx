@@ -60,42 +60,6 @@ export default function MyPets () {
               <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
             </div>
           </div>
-          <div className="flex w-full h-fit items-center bg-white border-t border-b border-l border-r shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5 border-[#00000080]">
-            <div className="size-14 flex shrink-0 justify-center items-center bg-[#fbff12] rounded-full">
-              <div className="size-[26px] flex flex-col text-[#0c0e09]">
-                <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><circle cx="11" cy="4" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
-              </div>
-            </div>
-            <div className="flex flex-col flex-1 gap-[3px]">
-              <div className="text-[#0c0e09] font-['Inter'] text-base font-bold [display:inline-block] [overflow-wrap:normal]">Luna</div>
-              <div className="text-[#0c0e0999] font-['Inter'] text-[13px] leading-normal [display:inline-block] [overflow-wrap:normal]">Rabbit | Holland Lop</div>
-              <div className="flex items-center mt-0.5 mb-0 mx-0 gap-1.5">
-                <div className="size-[7px] flex flex-col shrink-0 bg-[#0c0e0940] rounded-full"></div>
-                <div className="text-[#0c0e0973] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal]">All caught up</div>
-              </div>
-            </div>
-            <div className="size-5 flex flex-col shrink-0 text-[#0c0e0959]">
-              <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
-            </div>
-          </div>
-          <div className="flex w-full h-fit items-center bg-[#ffffff80] border-t border-b border-l border-r shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5 border-[#00000080]">
-            <div className="size-14 flex shrink-0 justify-center items-center bg-[#0c0e09] rounded-full">
-              <div className="size-[26px] flex flex-col text-[#fbff12]">
-                <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><circle cx="11" cy="4" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
-              </div>
-            </div>
-            <div className="flex flex-col flex-1 gap-[3px]">
-              <div className="text-[#0c0e09] font-['Inter'] text-base font-bold [display:inline-block] [overflow-wrap:normal]">Milo</div>
-              <div className="text-[#0c0e0999] font-['Inter'] text-[13px] leading-normal [display:inline-block] [overflow-wrap:normal]">Cat | British Shorthair</div>
-              <div className="flex items-center mt-0.5 mb-0 mx-0 gap-1.5">
-                <div className="size-[7px] flex flex-col shrink-0 bg-[#fbff12] rounded-full"></div>
-                <div className="text-[#0c0e09b3] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal]">1 upcoming task</div>
-              </div>
-            </div>
-            <div className="size-5 flex flex-col shrink-0 text-[#0c0e0959]">
-              <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
-            </div>
-          </div>
         </div>
         <div className="flex w-[380px] h-[98px] flex-col shrink-0 items-center">
           <div className="flex w-fit h-[60px] shrink-0 items-center pr-[22px] pl-4 mt-0 mb-3.5 bg-[#0c0e09] shadow-[0px_8px_20px_rgba(12,14,9,0.25)] rounded-full py-[13px] mx-0 gap-2">
