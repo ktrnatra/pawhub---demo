@@ -49,7 +49,11 @@ export default function Login() {
                   <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><polyline points="22,6 12,13 2,6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
                 </div>
               </div>
-              <div className="text-[#0c0e0966] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">maya@example.com</div>
+              <input
+  type="email"
+  placeholder="maya@example.com"
+  className="w-full bg-transparent outline-none text-[#0c0e09] text-sm leading-normal placeholder:text-[#0c0e0966]"
+/>
             </div>
           </div>
           <div className="flex w-full h-fit flex-col shrink-0 gap-[7px]">
@@ -60,7 +64,11 @@ export default function Login() {
                   <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4" color="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.45)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
                 </div>
               </div>
-              <div className="text-[#0c0e0966] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">At least 8 characters</div>
+              <input
+  type="password"
+  placeholder="At least 8 characters"
+  className="w-full bg-transparent outline-none text-[#0c0e09] text-sm leading-normal placeholder:text-[#0c0e0966]"
+/>
             </div>
             <div className="flex w-full h-fit justify-end mt-0.5 mb-0 mx-0">
               <div className="text-[#0c0e09b3] font-['Inter'] text-xs font-semibold leading-normal underline decoration-black [display:inline-block] [overflow-wrap:normal]">Forgot password?</div>
