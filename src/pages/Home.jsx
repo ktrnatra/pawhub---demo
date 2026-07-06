@@ -10,7 +10,7 @@ export default function Home() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Alegreya:wght@700&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[856px] flex-col bg-white overflow-clip">
+      <div className="flex w-[393px] h-[856px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f8f8f6] px-0 overflow-clip">
         <div className="flex h-[750px] flex-col shrink-0 gap-x-3 gap-y-5 p-5 overflow-clip">
           <div className="flex w-full h-[52px] shrink-0 justify-between items-center bg-[#0c0e09] shadow-[0px_6px_18px_rgba(12,14,9,0.18)] rounded-[20px] px-5 py-0">
             <div className="size-8 flex shrink-0 justify-center items-center">
@@ -179,7 +179,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex relative w-[393px] h-fit justify-around items-center bg-[#0c0e09] rounded-[40px] p-3 mx-0 my-5">
+        <div className="flex relative w-[361px] h-[73px] shrink-0 justify-around items-center bg-[#0c0e09] rounded-[40px] p-3 mx-0 my-5">
           <div className="flex h-[53px] flex-col items-center gap-1">
             <div className="flex w-[46px] h-8 justify-center items-center bg-[#fbff12] rounded-[40px]">
               <div className="size-5 flex flex-col text-[#ffffff80]">
