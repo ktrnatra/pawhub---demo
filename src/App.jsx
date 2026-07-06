@@ -78,7 +78,7 @@ function DemoHotspots({ page, setPage }) {
           <Hotspot to="MenuOverlay" setPage={setPage} label="Open menu" className="left-[20px] top-[20px] w-[64px] h-[64px]" />
           <Hotspot to="MyPets" setPage={setPage} label="View all pets" className="left-[280px] top-[595px] w-[95px] h-[40px]" />
           <Hotspot to="MyPets" setPage={setPage} label="Open Mochi" className="left-[20px] top-[635px] w-[165px] h-[150px]" />
-          <Hotspot to="PetProfileCoco" setPage={setPage} label="Open Coco" className="left-[205px] top-[635px] w-[165px] h-[150px]" />
+          <Hotspot to="PetProfileCoco" setPage={setPage} label="Open Coco" className="left-[205px] top-[635px] w-[165px] h-[150px]" />>
           {navHotspots(setPage)}
         </>
       );
