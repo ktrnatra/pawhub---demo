@@ -89,7 +89,7 @@ case 'MenuOverlay':
       {/* profile area only */}
       <Hotspot to="Profile" setPage={setPage} label="Open profile" className="left-[20px] top-[112px] w-[250px] h-[68px] rounded-2xl" />
 
-      {/* menu items */}
+      {/* menu items  */}
       <Hotspot to="Home" setPage={setPage} label="Home" className="left-[20px] top-[198px] w-[250px] h-[50px]" />
       <Hotspot to="MyPets" setPage={setPage} label="My Pets" className="left-[20px] top-[248px] w-[250px] h-[50px]" />
       <Hotspot to="PetProfile" setPage={setPage} label="Vaccination Cards" className="left-[20px] top-[298px] w-[250px] h-[50px]" />
