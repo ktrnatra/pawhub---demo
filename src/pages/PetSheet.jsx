@@ -1,9 +1,9 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f27c6-d9e1-712a-8915-c3108475977a
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function PetSheet() {
+export default function PetSheet () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +12,7 @@ export default function PetSheet() {
       <style>{"* { box-sizing: border-box; }"}</style>
       <div className="flex w-[393px] h-[852px] flex-col bg-[#f5f5f5] overflow-clip">
         <div className="flex h-fit flex-col shrink-0 pt-4 pb-1.5 px-4 gap-3.5">
-          <div className="flex w-full h-fit justify-between items-center bg-[#0c0e09] rounded-[20px] p-3.5">
+          <div className="flex w-full h-14 shrink-0 justify-between items-center bg-[#0c0e09] rounded-[20px] p-3.5">
             <div className="size-10 flex shrink-0 justify-center items-center bg-[#ffffff14] rounded-full">
               <div className="size-5 flex flex-col text-[#fbff12]">
                 <div className="size-5 flex flex-col">
@@ -229,6 +229,17 @@ export default function PetSheet() {
                   <div className="text-[#0c0e0959] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">Select date</div>
                   <div className="size-4 flex flex-col text-[#0c0e0966]">
                     <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.4)"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" color="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></rect><line x1="16" y1="2" x2="16" y2="6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="8" y1="2" x2="8" y2="6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="3" y1="10" x2="21" y2="10" color="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.4)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-full flex-col gap-1.5">
+              <div className="pr-0 pl-0.5 text-[#0c0e0999] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal] py-0">Card type</div>
+              <div className="flex w-full h-12 justify-between items-center bg-[#f5f5f5] border-t border-b border-l border-r rounded-[14px] px-4 py-0 border-[#0c0e0914]">
+                <div className="text-[#0c0e0959] font-['Inter'] text-sm leading-normal [display:inline-block] [overflow-wrap:normal]">Select card type</div>
+                <div className="size-[18px] flex flex-col text-[#0c0e0966]">
+                  <div className="size-[18px] flex flex-col">
+                    <svg stroke="rgba(12, 14, 9, 0.4)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgba(12, 14, 9, 0.4)"><polyline points="6 9 12 15 18 9" color="rgba(12, 14, 9, 0.4)" fill="none" stroke="rgba(12, 14, 9, 0.4)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
                   </div>
                 </div>
               </div>
