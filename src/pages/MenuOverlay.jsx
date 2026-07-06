@@ -21,7 +21,7 @@ export default function MenuOverlay () {
               </div>
             </div>
             <div>
-  <div className="pawhub-bubbles text-[#fbff12] text-[24px] leading-none tracking-[-0.5px] [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
+            <div className="pawhub-bubbles text-[#fbff12] text-[24px] leading-none tracking-[-0.5px] [display:inline-block] [overflow-wrap:normal]">Pawhub</div>
             <div className="size-8 flex relative shrink-0 justify-center items-center">
               <div className="size-[22px] flex flex-col text-[#fbff12]">
                 <div className="size-[22px] flex flex-col">
