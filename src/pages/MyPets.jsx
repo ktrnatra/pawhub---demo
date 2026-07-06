@@ -1,9 +1,9 @@
 /**
  * Made with Wonder
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f2798-c4b0-71fc-9196-eda35646911a
- * Jul 6, 2026
+ * Jul 7, 2026
  */
-export default function MyPets() {
+export default function MyPets () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,7 +42,7 @@ export default function MyPets() {
               <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
             </div>
           </div>
-          <div className="flex w-full h-fit items-center bg-white shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5">
+          <div className="flex w-full h-fit items-center bg-white border-t border-b border-l border-r shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5 border-[#00000080]">
             <div className="size-14 flex shrink-0 justify-center items-center bg-[#0c0e09] rounded-full">
               <div className="size-[26px] flex flex-col text-[#fbff12]">
                 <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><circle cx="11" cy="4" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
@@ -60,7 +60,7 @@ export default function MyPets() {
               <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
             </div>
           </div>
-          <div className="flex w-full h-fit items-center bg-white shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5">
+          <div className="flex w-full h-fit items-center bg-white border-t border-b border-l border-r shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5 border-[#00000080]">
             <div className="size-14 flex shrink-0 justify-center items-center bg-[#fbff12] rounded-full">
               <div className="size-[26px] flex flex-col text-[#0c0e09]">
                 <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><circle cx="11" cy="4" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
@@ -78,7 +78,7 @@ export default function MyPets() {
               <svg stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)"><polyline points="9 18 15 12 9 6" color="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" fill="none" stroke="oklab(0.159448 -0.00622424 0.00882211 / 0.35)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
             </div>
           </div>
-          <div className="flex w-full h-fit items-center bg-white shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5">
+          <div className="flex w-full h-fit items-center bg-[#ffffff80] border-t border-b border-l border-r shadow-[0px_2px_10px_rgba(12,14,9,0.05)] rounded-[20px] p-3.5 gap-3.5 border-[#00000080]">
             <div className="size-14 flex shrink-0 justify-center items-center bg-[#0c0e09] rounded-full">
               <div className="size-[26px] flex flex-col text-[#fbff12]">
                 <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><circle cx="11" cy="4" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="18" cy="8" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><circle cx="20" cy="16" r="2" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></circle><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
