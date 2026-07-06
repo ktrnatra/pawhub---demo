@@ -80,20 +80,28 @@ function DemoHotspots({ page, setPage }) {
           {navHotspots(setPage)}
         </>
       );
-    case 'MenuOverlay':
-      return (
-        <>
-          <Hotspot to="Home" setPage={setPage} label="Close menu" className="left-[325px] top-[95px] w-[55px] h-[55px]" />
-          <Hotspot to="Home" setPage={setPage} label="Home menu item" className="left-[20px] top-[270px] w-[350px] h-[65px]" />
-          <Hotspot to="MyPets" setPage={setPage} label="My Pets menu item" className="left-[20px] top-[340px] w-[350px] h-[65px]" />
-          <Hotspot to="PetProfile" setPage={setPage} label="Vaccination Cards menu item" className="left-[20px] top-[410px] w-[350px] h-[65px]" />
-          <Hotspot to="Home" setPage={setPage} label="Reminders menu item" className="left-[20px] top-[480px] w-[350px] h-[65px]" />
-          <Hotspot to="Community" setPage={setPage} label="Saved Posts menu item" className="left-[20px] top-[550px] w-[350px] h-[65px]" />
-          <Hotspot to="Profile" setPage={setPage} label="Settings menu item" className="left-[20px] top-[620px] w-[350px] h-[65px]" />
-          <Hotspot to="Profile" setPage={setPage} label="Help and Support menu item" className="left-[20px] top-[690px] w-[350px] h-[65px]" />
-          <Hotspot to="Welcome" setPage={setPage} label="Log out" className="left-[20px] top-[760px] w-[350px] h-[70px]" />
-        </>
-      );
+case 'MenuOverlay':
+  return (
+    <>
+      {/* close X */}
+      <Hotspot to="Home" setPage={setPage} label="Close menu" className="left-[330px] top-[70px] w-[45px] h-[45px]" />
+
+      {/* profile area */}
+      <Hotspot to="Profile" setPage={setPage} label="Open profile" className="left-[25px] top-[145px] w-[250px] h-[110px] rounded-2xl" />
+
+      {/* menu items */}
+      <Hotspot to="Home" setPage={setPage} label="Home" className="left-[20px] top-[285px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="MyPets" setPage={setPage} label="My Pets" className="left-[20px] top-[350px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="PetProfile" setPage={setPage} label="Vaccination Cards" className="left-[20px] top-[415px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="Home" setPage={setPage} label="Reminders" className="left-[20px] top-[480px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="Community" setPage={setPage} label="Saved Posts" className="left-[20px] top-[545px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="MenuOverlay" setPage={setPage} label="Settings" className="left-[20px] top-[610px] w-[300px] h-[58px] rounded-2xl" />
+      <Hotspot to="MenuOverlay" setPage={setPage} label="Help and Support" className="left-[20px] top-[675px] w-[300px] h-[58px] rounded-2xl" />
+
+      {/* log out */}
+      <Hotspot to="Welcome" setPage={setPage} label="Log out" className="left-[20px] top-[760px] w-[300px] h-[58px] rounded-2xl" />
+    </>
+  );
     case 'MyPets':
       return (
         <>
