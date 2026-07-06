@@ -34,9 +34,8 @@ function Hotspot({ to, setPage, label, className = '', feedback = false }) {
       onClick={() => setPage(to)}
       className={`absolute z-50 ${className} ${
         feedback
-          feedback
-  ? 'bg-transparent active:bg-[#0c0e09]/10 transition-colors duration-150 focus:outline-none'
-  : 'bg-transparent'
+          ? 'bg-transparent active:bg-[#0c0e09]/10 transition-colors duration-150 focus:outline-none'
+          : 'bg-transparent'
       }`}
     />
   );
