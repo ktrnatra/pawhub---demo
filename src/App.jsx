@@ -145,12 +145,11 @@ export default function App() {
   const Current = route.Component;
 
   return (
-  <main className="min-h-screen w-screen bg-neutral-950 text-black flex items-center justify-center p-0 md:p-4 overflow-auto">
-    <div className="relative w-[393px] h-[852px] max-w-full overflow-hidden rounded-[32px] shadow-2xl bg-white">
-      <Current />
-      <DemoHotspots page={page} setPage={setPage} />
-    </div>
-  </main>
-);
+    <main className="min-h-screen w-screen bg-neutral-950 text-black flex items-center justify-center p-0 md:p-4 overflow-auto">
+      <div className="relative w-[393px] h-[852px] max-w-full overflow-hidden rounded-[32px] shadow-2xl bg-white">
+        <Current />
+        <DemoHotspots page={page} setPage={setPage} />
+      </div>
+    </main>
+  );
 }
-// clean demo shell
