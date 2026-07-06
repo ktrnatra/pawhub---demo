@@ -50,7 +50,7 @@ const navHotspots = (setPage) => (
 function DemoHotspots({ page, setPage }) {
   switch (page) {
     case 'Welcome':
-      return <Hotspot to="CreateAccount" setPage={setPage} label="Get Started" className="left-[72px] top-[675px] w-[250px] h-[68px] rounded-[34px]" />;
+  return <Hotspot to="CreateAccount" setPage={setPage} label="Get Started" className="left-[70px] top-[555px] w-[255px] h-[90px] rounded-[34px]" />;
     case 'CreateAccount':
       return (
         <>
