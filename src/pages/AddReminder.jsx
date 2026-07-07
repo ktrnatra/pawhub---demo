@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f398e-7785-73db-b1f9-110a83d1f210
  * Jul 7, 2026
  */
-export default function AddReminder({ setPage }) {
+export default function AddReminder() {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,11 +74,11 @@ export default function AddReminder({ setPage }) {
                 </div>
               </div>
               <div className="text-[#0c0e09] font-['Inter'] text-lg font-bold leading-tight [display:inline-block] [overflow-wrap:normal] flex-1">Add Reminder</div>
-              <button type="button" onClick={() => setPage('PetProfile')} className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
+              <div className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
                 <div className="size-[18px] flex flex-col text-[#0c0e09]">
                   <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
                 </div>
-              </button>
+              </div>
             </div>
             <div className="flex w-full h-fit flex-col gap-1.5">
               <div className="text-[#0c0e0999] font-['Inter'] text-xs font-semibold leading-none [display:inline-block] [overflow-wrap:normal]">Pet</div>
@@ -145,9 +145,9 @@ export default function AddReminder({ setPage }) {
               </div>
             </div>
             <div className="flex w-full h-fit justify-between items-center pt-1 pb-0 px-0">
-              <button type="button" onClick={() => setPage('PetProfile')} className="flex h-fit items-center px-4 py-2.5">
+              <div className="flex h-fit items-center px-4 py-2.5">
                 <div className="text-[#0c0e0999] font-['Inter'] text-[15px] font-semibold leading-none [display:inline-block] [overflow-wrap:normal]">Cancel</div>
-              </button>
+              </div>
               <div className="flex h-fit items-center bg-[#0c0e09] rounded-full px-6 py-3">
                 <div className="text-[#fbff12] font-['Inter'] text-[15px] font-bold leading-none [display:inline-block] [overflow-wrap:normal]">Save Reminder</div>
               </div>
