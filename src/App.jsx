@@ -136,6 +136,20 @@ case 'MenuOverlay':
       {navHotspots(setPage)}
     </>
   );
+    case 'AddReminder':
+  return (
+    <>
+      <Hotspot to="PetProfile" setPage={setPage} label="Close reminder sheet" className="right-[28px] top-[314px] w-[44px] h-[44px] rounded-full" />
+      <Hotspot to="PetProfile" setPage={setPage} label="Cancel reminder" className="left-[28px] bottom-[82px] w-[95px] h-[48px] rounded-full" />
+    </>
+  );
+    case 'AddSchedule':
+  return (
+    <>
+      <Hotspot to="PetProfile" setPage={setPage} label="Close schedule sheet" className="right-[28px] top-[314px] w-[44px] h-[44px] rounded-full" />
+      <Hotspot to="PetProfile" setPage={setPage} label="Cancel schedule" className="left-[28px] bottom-[82px] w-[95px] h-[48px] rounded-full" />
+    </>
+  );
     case 'Community':
       return (
         <>
