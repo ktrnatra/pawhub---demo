@@ -78,8 +78,8 @@ export default function AddReminder({ setPage }) {
                 <div className="size-[18px] flex flex-col text-[#0c0e09]">
                   <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
                 </div>
-              </div>
-            </button>
+              </button>
+            </div>
             <div className="flex w-full h-fit flex-col gap-1.5">
               <div className="text-[#0c0e0999] font-['Inter'] text-xs font-semibold leading-none [display:inline-block] [overflow-wrap:normal]">Pet</div>
               <div className="flex w-full h-fit justify-between items-center bg-[#f5f5f5] rounded-[14px] px-4 py-3">
