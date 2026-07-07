@@ -128,7 +128,11 @@ case 'MenuOverlay':
   return (
     <>
       <Hotspot to="MyPets" setPage={setPage} label="Back to pets" className="left-[20px] top-[24px] w-[55px] h-[55px]" />
-      
+
+      <Hotspot to="AddReminder" setPage={setPage} label="Open Add Reminder" className="left-[0px] top-[300px] w-[196px] h-[300px] rounded-2xl" />
+
+      <Hotspot to="AddSchedule" setPage={setPage} label="Open Add Schedule" className="left-[196px] top-[300px] w-[197px] h-[300px] rounded-2xl" />
+
       {navHotspots(setPage)}
     </>
   );
