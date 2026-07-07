@@ -162,6 +162,17 @@ case 'MenuOverlay':
       <Hotspot to="Profile" setPage={setPage} label="Save profile" className="right-[20px] bottom-[24px] w-[155px] h-[70px] rounded-full" />
     </>
   );
+    case 'EditPetProfile':
+  return (
+    <>
+      <Hotspot
+        to="PetProfile"
+        setPage={setPage}
+        label="Close edit pet profile"
+        className="right-[24px] top-[220px] w-[60px] h-[60px] rounded-full"
+      />
+    </>
+  );
     case 'Community':
       return (
         <>
