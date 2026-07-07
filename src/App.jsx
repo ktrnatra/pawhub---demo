@@ -118,6 +118,7 @@ case 'MenuOverlay':
           <Hotspot to="Home" setPage={setPage} label="Back" className="left-[18px] top-[32px] w-[55px] h-[55px]" />
           <Hotspot to="PetSheet" setPage={setPage} label="Add new pet" className="left-[125px] top-[700px] w-[150px] h-[70px]" />
           <Hotspot to="PetProfile" setPage={setPage} label="Open first pet profile" className="left-[18px] top-[120px] w-[355px] h-[90px]" />
+          <Hotspot to="PetProfileCoco" setPage={setPage} label="Open Coco pet profile" className="left-[18px] top-[225px] w-[355px] h-[95px] rounded-2xl" />
           {navHotspots(setPage)}
         </>
       );
