@@ -12,7 +12,7 @@ export default function Profile() {
       <style>{"* { box-sizing: border-box; }"}</style>
       <div className="relative flex w-[393px] h-[852px] flex-col bg-[#f8f8f6] overflow-hidden">
         <div className="flex relative w-full h-[256px] flex-col shrink-0 rounded-br-[30px] rounded-bl-[30px] overflow-clip">
-          <div className="size-full inset-0 flex absolute flex-col bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/5002f329a074000bc946ada1b0c40dc9a4a493e76b9be6bc286a6cfb5f2f62f7.jpg')] bg-cover bg-no-repeat"></div>
+          <div className="size-full inset-0 flex absolute flex-col bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/5002f329a074000bc946ada1b0c40dc9a4a493e76b9be6bc286a6cfb5f2f62f7.jpg')] bg-cover bg-center bg-no-repeat"></div>
           <div className="flex absolute h-[150px] flex-col left-0 right-0 bottom-0 bg-[linear-gradient(0deg,_rgba(12,_14,_9,_0.55)_0%,_rgba(12,_14,_9,_0)_100%)]"></div>
           <div className="flex absolute justify-between items-center z-[5] left-4 top-3 right-4">
             <div className="size-10 flex justify-center items-center bg-[#0c0e0959] backdrop-blur-md rounded-full">
