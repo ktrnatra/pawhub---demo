@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f398b-750a-773e-affa-41a048e5ed11
  * Jul 7, 2026
  */
-export default function AddSchedule({ setPage }) {
+export default function AddSchedule () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,12 +74,12 @@ export default function AddSchedule({ setPage }) {
                 </div>
               </div>
               <div className="text-[#0c0e09] font-['Inter'] text-lg font-bold leading-tight [display:inline-block] [overflow-wrap:normal] flex-1">Add New Schedule</div>
-              <button type="button" onClick={() => setPage('PetProfile')} className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
+              <div className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
                 <div className="size-[18px] flex flex-col text-[#0c0e09]">
                   <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
                 </div>
               </div>
-            </button>
+            </div>
             <div className="flex w-full h-fit flex-col gap-1.5">
               <div className="text-[#0c0e0999] font-['Inter'] text-xs font-semibold leading-none [display:inline-block] [overflow-wrap:normal]">Pet</div>
               <div className="flex w-full h-fit justify-between items-center bg-[#f5f5f5] rounded-[14px] px-4 py-3">
