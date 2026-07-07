@@ -151,7 +151,14 @@ case 'MenuOverlay':
         to="PetProfile"
         setPage={setPage}
         label="Close schedule sheet"
-        className="right-[34px] top-[285px] w-[42px] h-[42px] rounded-full"
+        className="right-[34px] top-[150px] w-[42px] h-[42px] rounded-full"
+      />
+
+      <Hotspot
+        to="PetProfile"
+        setPage={setPage}
+        label="Cancel schedule"
+        className="left-[20px] bottom-[24px] w-[150px] h-[70px] rounded-full"
       />
     </>
   );
