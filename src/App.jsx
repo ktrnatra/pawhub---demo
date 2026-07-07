@@ -146,7 +146,7 @@ case 'MenuOverlay':
         to="PetProfile"
         setPage={setPage}
         label="Close schedule sheet"
-        className="right-[34px] top-[238px] w-[38px] h-[38px] rounded-full"
+        className="right-[34px] top-[150px] w-[42px] h-[42px] rounded-full"
       />
     </>
   );
