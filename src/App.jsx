@@ -142,8 +142,12 @@ case 'MenuOverlay':
     case 'AddSchedule':
   return (
     <>
-      <Hotspot to="PetProfile" setPage={setPage} label="Close schedule sheet" className="right-[28px] top-[314px] w-[44px] h-[44px] rounded-full" />
-      <Hotspot to="PetProfile" setPage={setPage} label="Cancel schedule" className="left-[28px] bottom-[82px] w-[95px] h-[48px] rounded-full" />
+      <Hotspot
+        to="PetProfile"
+        setPage={setPage}
+        label="Close schedule sheet"
+        className="right-[8px] top-[190px] w-[120px] h-[120px] rounded-full"
+      />
     </>
   );
     case 'Community':
