@@ -137,6 +137,14 @@ case 'MenuOverlay':
       {navHotspots(setPage)}
     </>
   );
+      case 'PetProfileCoco':
+  return (
+    <>
+      <Hotspot to="MyPets" setPage={setPage} label="Back to pets" className="left-[20px] top-[24px] w-[60px] h-[60px] rounded-full" />
+
+      {navHotspots(setPage)}
+    </>
+  );
     case 'AddReminder':
   return (
     <>
