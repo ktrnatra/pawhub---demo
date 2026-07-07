@@ -1,3 +1,4 @@
+import EditProfile from './pages/EditProfile.jsx';
 import AddReminder from "./pages/AddReminder";
 import AddSchedule from "./pages/AddSchedule";
 import PetProfileCoco from './pages/PetProfileCoco.jsx';
@@ -30,6 +31,7 @@ const routes = [
   { id: 'Community', label: "Community page", Component: Community },
   { id: 'CreatePost', label: "Create post page", Component: CreatePost },
   { id: 'Profile', label: "user profile page", Component: Profile },
+  { id: 'EditProfile', label: 'edit profile sheet', Component: EditProfile },
 ];
 
 function Hotspot({ to, setPage, label, className = '', feedback = false }) {
@@ -150,6 +152,14 @@ case 'MenuOverlay':
       />
     </>
   );
+    case 'EditProfile':
+  return (
+    <>
+      <Hotspot to="Profile" setPage={setPage} label="Close edit profile" className="right-[24px] top-[220px] w-[60px] h-[60px] rounded-full" />
+      <Hotspot to="Profile" setPage={setPage} label="Cancel edit profile" className="left-[28px] bottom-[90px] w-[110px] h-[55px] rounded-full" />
+      <Hotspot to="Profile" setPage={setPage} label="Save profile" className="right-[24px] bottom-[90px] w-[155px] h-[55px] rounded-full" />
+    </>
+  );
     case 'Community':
       return (
         <>
@@ -169,6 +179,7 @@ case 'MenuOverlay':
         <>
           <Hotspot to="Home" setPage={setPage} label="Back to home" className="left-[18px] top-[20px] w-[55px] h-[55px]" />
           <Hotspot to="MyPets" setPage={setPage} label="My Pets button" className="left-[55px] top-[525px] w-[140px] h-[55px]" />
+          <Hotspot to="EditProfile" setPage={setPage} label="Open edit profile" className="right-[16px] top-[20px] w-[110px] h-[55px] rounded-full" />
           {navHotspots(setPage)}
         </>
       );
