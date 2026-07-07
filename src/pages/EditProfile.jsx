@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f39f2-2195-7163-880e-e1f4af91f954
  * Jul 7, 2026
  */
-export default function EditProfileUser () {
+export default function EditProfile () {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
