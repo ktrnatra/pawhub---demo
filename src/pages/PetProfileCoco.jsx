@@ -12,7 +12,7 @@ export default function PetProfileCoCo () {
       <style>{"* { box-sizing: border-box; }"}</style>
       <div className="flex w-[393px] h-[852px] flex-col bg-[#0c0e09] overflow-clip">
         <div className="size-full inset-0 flex absolute flex-col overflow-clip">
-          <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/cb510d7bd19f60cb8dbfe4894a543152b6451e916639473733c79c2be6a32757.png')] bg-cover bg-no-repeat"></div>
+          <div className="size-full flex flex-col shrink-0 bg-[url('https://cdn.wonder.so/images/019f269b-6b46-777f-b695-785e0fb4f427/cb510d7bd19f60cb8dbfe4894a543152b6451e916639473733c79c2be6a32757.png')] bg-cover bg-center bg-no-repeat"></div>
         </div>
         <div className="flex absolute justify-between items-center z-[10] left-0 top-4 right-0 px-4 py-0">
           <div className="size-[42px] flex justify-center items-center bg-[#0c0e098c] border-t border-b border-l border-r backdrop-blur-md rounded-full border-[#ffffff1a]">
