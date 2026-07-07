@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f39f4-2582-728a-b13e-25578323cddf
  * Jul 7, 2026
  */
-export default function EditPetProfile () {
+export default function EditPetProfile() {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -91,13 +91,13 @@ export default function EditPetProfile () {
             <div className="flex w-full flex-col gap-1.5">
               <div className="text-[#6e6e6e] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal]">Pet name</div>
               <div className="flex w-full h-[50px] items-center bg-[#f2f2ee] rounded-[14px] px-4 py-0">
-                <div className="text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Coco</div>
+                <div className="h-fit text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Mochi</div>
               </div>
             </div>
             <div className="flex w-full flex-col gap-1.5">
               <div className="text-[#6e6e6e] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal]">Species</div>
               <div className="flex w-full h-[50px] justify-between items-center bg-[#f2f2ee] rounded-[14px] px-4 py-0">
-                <div className="text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Dog</div>
+                <div className="w-fit text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Cat</div>
                 <div className="size-[18px] flex flex-col text-[#6e6e6e]">
                   <svg stroke="rgb(110, 110, 110)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(110, 110, 110)"><polyline points="6 9 12 15 18 9" color="rgb(110, 110, 110)" fill="none" stroke="rgb(110, 110, 110)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></polyline></svg>
                 </div>
@@ -106,7 +106,7 @@ export default function EditPetProfile () {
             <div className="flex w-full flex-col gap-1.5">
               <div className="text-[#6e6e6e] font-['Inter'] text-xs font-semibold leading-normal [display:inline-block] [overflow-wrap:normal]">Breed</div>
               <div className="flex w-full h-[50px] items-center bg-[#f2f2ee] rounded-[14px] px-4 py-0">
-                <div className="text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Poodle</div>
+                <div className="text-[#0c0e09] font-['Inter'] text-[15px] font-medium leading-normal [display:inline-block] [overflow-wrap:normal]">Siamese</div>
               </div>
             </div>
             <div className="flex w-full flex-col gap-1.5">
