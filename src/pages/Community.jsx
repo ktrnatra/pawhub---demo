@@ -10,7 +10,7 @@ export default function Community() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
       <style>{"* { box-sizing: border-box; }"}</style>
-      <div className="flex w-[393px] h-[852px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f5f5f5] px-0 overflow-clip">
+      <div className="relative flex w-[393px] h-[852px] flex-col justify-center items-center pt-0 pb-[5px] bg-[#f5f5f5] px-0 overflow-hidden">
         <div className="flex w-[393px] h-[222px] flex-col shrink-0 pt-4 pb-1 px-4 gap-4">
           <div className="flex w-[361px] h-14 shrink-0 justify-between items-center bg-[#0c0e09] rounded-[20px] px-3.5 py-0 overflow-clip">
             <div className="size-9 flex shrink-0 justify-center items-center rounded-full">
@@ -37,7 +37,7 @@ export default function Community() {
             <div className="text-[#6b6b66] font-['Inter'] text-[13px] leading-[1.4] [display:inline-block] [overflow-wrap:normal]">Connect, share, and learn with pet parents like you.</div>
           </div>
         </div>
-        <div className="flex min-h-0 flex-col flex-1 p-4 gap-4">
+        <div className="flex min-h-0 flex-col flex-1 p-4 gap-4 overflow-y-auto pb-[120px]">
           <div className="flex w-full h-fit flex-col bg-white shadow-[0px_4px_16px_rgba(12,14,9,0.06)] rounded-[20px] p-4 gap-3">
             <div className="flex w-full items-center gap-2.5">
               <div className="size-[42px] flex shrink-0 justify-center items-center bg-[#fbff12] rounded-full">
