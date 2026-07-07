@@ -12,7 +12,7 @@ import PetProfile from './pages/PetProfile.jsx';
 import Community from './pages/Community.jsx';
 import CreatePost from './pages/CreatePost.jsx';
 import Profile from './pages/Profile.jsx';
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import './app.css';
 
 const routes = [
@@ -125,12 +125,17 @@ case 'MenuOverlay':
         </>
       );
     case 'PetProfile':
-      return (
-        <>
-          <Hotspot to="MyPets" setPage={setPage} label="Back to pets" className="left-[20px] top-[24px] w-[55px] h-[55px]" />
-          {navHotspots(setPage)}
-        </>
-      );
+  return (
+    <>
+      <Hotspot to="MyPets" setPage={setPage} label="Back to pets" className="left-[20px] top-[24px] w-[55px] h-[55px]" />
+
+      <Hotspot to="AddReminder" setPage={setPage} label="Open Add Reminder" className="left-[24px] top-[350px] w-[160px] h-[58px] rounded-2xl" />
+
+      <Hotspot to="AddSchedule" setPage={setPage} label="Open Add Schedule" className="left-[205px] top-[350px] w-[160px] h-[58px] rounded-2xl" />
+
+      {navHotspots(setPage)}
+    </>
+  );
     case 'Community':
       return (
         <>
