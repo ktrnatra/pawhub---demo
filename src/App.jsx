@@ -1,3 +1,5 @@
+import AddReminder from "./pages/AddReminder";
+import AddSchedule from "./pages/AddSchedule";
 import PetProfileCoco from './pages/PetProfileCoco.jsx';
 import Welcome from './pages/Welcome.jsx';
 import CreateAccount from './pages/CreateAccount.jsx';
@@ -17,7 +19,9 @@ const routes = [
   { id: 'Welcome', label: "Welcome", Component: Welcome },
   { id: 'CreateAccount', label: "Create account", Component: CreateAccount },
   { id: 'Login', label: "lOG IN", Component: Login },
-  { id: 'Home', label: "home", Component: Home },
+  { id: 'Home', label: "home", Component: Home }, 
+  { id: 'AddReminder', label: 'add reminder page', Component: AddReminder },
+  { id: 'AddSchedule', label: 'add schedule page', Component: AddSchedule },
   { id: 'MenuOverlay', label: "menu overlay home", Component: MenuOverlay },
   { id: 'MyPets', label: "My pets page", Component: MyPets },
   { id: 'PetSheet', label: "pet sheet", Component: PetSheet },
