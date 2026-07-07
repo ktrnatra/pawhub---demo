@@ -68,18 +68,20 @@ export default function AddReminder() {
         <div className="inset-0 flex absolute justify-center items-center z-[50] bg-[#0c0e0999] px-4 py-0">
           <div className="flex w-[345px] h-fit flex-col bg-white shadow-[0px_20px_60px_rgba(12,14,9,0.35)] rounded-3xl p-5 gap-4">
             <div className="flex w-full h-fit items-center gap-3">
-              <div className="size-9 flex shrink-0 justify-center items-center bg-[#fbff12] rounded-full">
-                <div className="size-[18px] flex flex-col text-[#0c0e09]">
-                  <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M13.73 21a2 2 0 0 1-3.46 0" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
-                </div>
-              </div>
-              <div className="text-[#0c0e09] font-['Inter'] text-lg font-bold leading-tight [display:inline-block] [overflow-wrap:normal] flex-1">Add Reminder</div>
-              <div className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
-                <div className="size-[18px] flex flex-col text-[#0c0e09]">
-                  <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
-                </div>
-              </div>
-            </div>
+  <div className="size-9 flex shrink-0 justify-center items-center bg-[#fbff12] rounded-full">
+    <div className="size-[18px] flex flex-col text-[#0c0e09]">
+      <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M13.73 21a2 2 0 0 1-3.46 0" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
+    </div>
+  </div>
+
+  <div className="text-[#0c0e09] font-['Inter'] text-lg font-bold leading-tight [display:inline-block] [overflow-wrap:normal] flex-1">Add Reminder</div>
+
+  <button type="button" onClick={() => setPage('PetProfile')} className="size-8 flex shrink-0 justify-center items-center bg-[#f5f5f5] rounded-full">
+    <div className="size-[18px] flex flex-col text-[#0c0e09]">
+      <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><line x1="18" y1="6" x2="6" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="6" y1="6" x2="18" y2="18" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
+    </div>
+  </button>
+</div>
             <div className="flex w-full h-fit flex-col gap-1.5">
               <div className="text-[#0c0e0999] font-['Inter'] text-xs font-semibold leading-none [display:inline-block] [overflow-wrap:normal]">Pet</div>
               <div className="flex w-full h-fit justify-between items-center bg-[#f5f5f5] rounded-[14px] px-4 py-3">
