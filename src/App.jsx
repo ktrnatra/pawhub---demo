@@ -156,8 +156,8 @@ case 'MenuOverlay':
   return (
     <>
       <Hotspot to="Profile" setPage={setPage} label="Close edit profile" className="right-[24px] top-[220px] w-[60px] h-[60px] rounded-full" />
-        <Hotspot to="Profile" setPage={setPage} label="Cancel edit profile" className="left-[24px] bottom-[88px] w-[130px] h-[60px] rounded-full" />
-      <Hotspot to="Profile" setPage={setPage} label="Save profile" className="right-[24px] bottom-[90px] w-[155px] h-[55px] rounded-full" />
+      <Hotspot to="Profile" setPage={setPage} label="Cancel edit profile" className="left-[20px] bottom-[24px] w-[150px] h-[70px] rounded-full" />
+      <Hotspot to="Profile" setPage={setPage} label="Save profile" className="right-[20px] bottom-[24px] w-[155px] h-[70px] rounded-full" />
     </>
   );
     case 'Community':
