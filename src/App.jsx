@@ -1,3 +1,4 @@
+import EditPetProfile from './pages/EditPetProfile.jsx';
 import EditProfile from './pages/EditProfile.jsx';
 import AddReminder from "./pages/AddReminder";
 import AddSchedule from "./pages/AddSchedule";
@@ -27,6 +28,7 @@ const routes = [
   { id: 'MyPets', label: "My pets page", Component: MyPets },
   { id: 'PetSheet', label: "pet sheet", Component: PetSheet },
   { id: 'PetProfile', label: "pet profile", Component: PetProfile },
+  { id: 'EditPetProfile', label: 'edit pet profile sheet', Component: EditPetProfile },
   { id: 'PetProfileCoco', label: 'Coco pet profile', Component: PetProfileCoco },
   { id: 'Community', label: "Community page", Component: Community },
   { id: 'CreatePost', label: "Create post page", Component: CreatePost },
@@ -130,7 +132,7 @@ case 'MenuOverlay':
   return (
     <>
       <Hotspot to="MyPets" setPage={setPage} label="Back to pets" className="left-[20px] top-[24px] w-[55px] h-[55px]" />
-      
+      <Hotspot to="EditPetProfile" setPage={setPage} label="Open edit pet profile" className="right-[16px] top-[20px] w-[115px] h-[55px] rounded-full" />
       {navHotspots(setPage)}
     </>
   );
