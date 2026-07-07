@@ -3,7 +3,7 @@
  * https://app.wonder.so/yna-tura/files/019f269b-6b46-777f-b695-785e0fb4f427/branches/main/pages/019f269b-6b48-73f4-9340-064d58b68665?nodeId=019f2882-13d1-7463-9ebe-5812fbe032fe
  * Jul 7, 2026
  */
-export default function PetProfile () {
+export default function PetProfile({ setPage }) {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,13 +45,13 @@ export default function PetProfile () {
             </div>
           </div>
           <div className="flex gap-3">
-            <button type="button" onClick={() => window.location.hash = 'AddReminder'} className="flex h-[50px] justify-center items-center bg-[#0c0e09] flex-1 rounded-2xl gap-2">
+            <button type="button" onClick={() => setPage('AddReminder')} className="flex h-[50px] justify-center items-center bg-[#0c0e09] flex-1 rounded-2xl gap-2">
               <div className="size-[17px] flex flex-col text-[#fbff12]">
                 <svg stroke="rgb(251, 255, 18)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(251, 255, 18)"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path><path d="M13.73 21a2 2 0 0 1-3.46 0" color="rgb(251, 255, 18)" fill="none" stroke="rgb(251, 255, 18)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></path></svg>
               </div>
               <div className="text-[#fbff12] font-['Inter'] text-sm font-bold leading-normal [display:inline-block] [overflow-wrap:normal]">Add Reminder</div>
             </button>
-            <button type="button" onClick={() => window.location.hash = 'AddSchedule'} className="flex h-[50px] justify-center items-center bg-[#fbff12] flex-1 rounded-2xl gap-2">
+            <button type="button" onClick={() => setPage('AddSchedule')} className="flex h-[50px] justify-center items-center bg-[#fbff12] flex-1 rounded-2xl gap-2">
               <div className="size-[17px] flex flex-col text-[#0c0e09]">
                 <svg stroke="rgb(12, 14, 9)" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" color="rgb(12, 14, 9)"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></rect><line x1="16" y1="2" x2="16" y2="6" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="8" y1="2" x2="8" y2="6" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line><line x1="3" y1="10" x2="21" y2="10" color="rgb(12, 14, 9)" fill="none" stroke="rgb(12, 14, 9)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2px"></line></svg>
               </div>
